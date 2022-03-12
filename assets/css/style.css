@@ -1,0 +1,85 @@
+/** Globales **/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+/** Header / Navegation **/
+.site-name{
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.site-name span{
+    color: #037bc0;
+} 
+
+.container-nav{
+    border-top: 1px solid #e1e1e1;
+}
+
+.nav-principal{
+    padding: 20px 0;
+}
+
+.nav-principal ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav-principal ul li{
+    display: inline;
+}
+
+.hero{
+    height: 550px;
+    background-size: cover;
+    background-image: url('../img/principal.webp');
+}
+
+
+
+/** Categories **/
+.categories h2{
+    text-align: center;
+}
+
+.category a{
+    display: block;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.category a:hover{
+    color: #fff;
+    background-color: #037bc0;
+    border-bottom-right-radius: 10px;
+}
+
+.categories-list {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
